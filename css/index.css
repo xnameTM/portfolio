@@ -217,7 +217,7 @@
 }
 
 .projects__card-headline {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 500;
   display: flex;
   gap: 8px;
@@ -225,12 +225,13 @@
 }
 
 .projects__card-headline__desc {
-  margin-top: 4px;
+  margin-top: 3px;
   font-size: 20px;
 }
 
 .project__card-description {
   text-align: justify;
+  font-size: 15px;
 }
 
 .projects__card-technologies {
