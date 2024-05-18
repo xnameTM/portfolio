@@ -1,0 +1,9 @@
+:root {
+    --dark: #101010;
+    --light: #fff;
+    --gray: rgba(242, 242, 242, .5);
+    --light-gray: #333;
+    --dark-gray: #191919;
+    --orange: #fb7e4b;
+    --pink: #f11e8e;
+}
