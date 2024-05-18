@@ -200,12 +200,15 @@
   height: 100%;
   background: linear-gradient(60deg, #cccccc00 25%, #cccccc27 50%, #cccccc00 75%) no-repeat;
   background-size: 100% 100%;
-  transition: background-position-x .5s ease;
+  opacity: 0;
+  transition: background-position-x .5s ease, opacity .2s ease;
   background-position-x: calc((min(100vw, 960px) - 32px) * -1);
   pointer-events: none;
 }
 
 .projects__card:hover::after {
+  transition: background-position-x .5s ease;
+  opacity: 1;
   background-position-x: calc(min(100vw, 960px) - 32px);
 }
 
